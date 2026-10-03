@@ -40,6 +40,7 @@ em { font: inherit; font-style: normal; color: var(--accent); }
 .imd-source { width: 34px; height: 34px; display: grid; place-content: center; color: var(--muted); background: var(--surface); border: 1px solid var(--line); border-radius: 50%; font-size: 14px; }
 .imd-source:hover { color: var(--text); }
 .header-copy { width: 34px; height: 34px; }
+.header-social { width: 34px; height: 34px; flex-shrink: 0; }
 .button { display: inline-flex; align-items: center; justify-content: center; gap: 12px; min-height: 45px; padding: 0 21px; border: 1px solid #efbd8a; border-radius: 30px; background: var(--accent); color: #21150c; font-size: 13px; font-weight: 750; white-space: nowrap; transition: background .2s, transform .2s, border-color .2s; }
 .button:hover:not(:disabled) { background: #f0bd88; transform: translateY(-1px); }
 .button-secondary { background: #191612; border-color: #343028; color: var(--text); }
