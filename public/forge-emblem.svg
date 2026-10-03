@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" fill="none">
+  <defs>
+    <linearGradient id="copper" x1="130" y1="90" x2="450" y2="475" gradientUnits="userSpaceOnUse"><stop stop-color="#fff0cc"/><stop offset=".19" stop-color="#c9905b"/><stop offset=".4" stop-color="#73401f"/><stop offset=".57" stop-color="#e5aa70"/><stop offset=".78" stop-color="#b6743f"/><stop offset="1" stop-color="#ffe0ac"/></linearGradient>
+    <linearGradient id="side" x1="110" y1="130" x2="470" y2="515" gradientUnits="userSpaceOnUse"><stop stop-color="#492813"/><stop offset=".55" stop-color="#a56330"/><stop offset="1" stop-color="#2d1a10"/></linearGradient>
+    <linearGradient id="ivory" x1="236" y1="160" x2="385" y2="420" gradientUnits="userSpaceOnUse"><stop stop-color="#fffdf4"/><stop offset=".42" stop-color="#f3e8d2"/><stop offset="1" stop-color="#bda17c"/></linearGradient>
+    <linearGradient id="ivoryEdge" x1="350" y1="185" x2="350" y2="458" gradientUnits="userSpaceOnUse"><stop stop-color="#a48a67"/><stop offset=".55" stop-color="#9a734c"/><stop offset="1" stop-color="#3c2c1c"/></linearGradient>
+    <radialGradient id="ground"><stop stop-color="#000" stop-opacity=".85"/><stop offset="1" stop-color="#000" stop-opacity="0"/></radialGradient>
+    <filter id="shadow" x="-35%" y="-35%" width="170%" height="180%"><feDropShadow dx="0" dy="22" stdDeviation="15" flood-color="#000" flood-opacity=".5"/></filter>
+  </defs>
+  <ellipse cx="308" cy="514" rx="214" ry="43" fill="url(#ground)"/>
+  <g transform="rotate(-13 300 300)" filter="url(#shadow)">
+    <path d="M406 124A206 206 0 1 0 476 401" transform="translate(0 18)" stroke="url(#side)" stroke-width="53" stroke-linecap="square"/>
+    <path d="M406 124A206 206 0 1 0 476 401" stroke="url(#copper)" stroke-width="53" stroke-linecap="square"/>
+    <path d="M405 105A225 225 0 1 0 494 405" stroke="#ffe2b4" stroke-opacity=".4" stroke-width="1.5"/>
+    <path d="M400 146A181 181 0 1 0 451 385" stroke="#4f2f18" stroke-opacity=".8" stroke-width="1.5"/>
+    <path d="M257 177h202l-41 53H318v75h91l-39 52h-52v95l-61-38Z" fill="url(#ivoryEdge)" transform="translate(0 17)"/>
+    <path d="M257 177h202l-41 53H318v75h91l-39 52h-52v95l-61-38Z" fill="url(#ivory)"/>
+    <path d="M258 178h197l-37 50H316v79h90M318 356h50" stroke="#fffaf0" stroke-opacity=".55" stroke-width="2"/>
+    <path d="M265 185v224l45 27v-87h56l27-36h-83v-91h105l28-37Z" stroke="#6b4e28" stroke-opacity=".14" stroke-width="1"/>
+  </g>
+</svg>
